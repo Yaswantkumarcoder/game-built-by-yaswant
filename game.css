@@ -1,0 +1,294 @@
+*{
+      padding:0;
+      margin:0;
+      box-sizing:border-box;
+}
+
+.navbar{
+      height:450px;
+      width:1400px;
+      text-align:center;
+      font-size:40px;
+      position: relative;
+      color:black;
+}
+body{
+      overflow:hidden;
+}
+.navbar1-0{
+     height:1200px;
+     width:1000000000px;
+}
+ .navbar1{
+       height:1500px;
+       width:inherit;
+      background-image:url(stock-photo-a-picture-of-a-highway-that-passing-through-green-forests-and-beautiful-mountains-1837837225.jpg);
+      position:relative;
+     animation-name:anim;
+      animation-duration:3600s;
+         animation-iteration-count:infinite;
+         animation-timing-function:ease-in;
+        color:red;
+        text-align:center;
+        font-size:12px;
+        right:0px;
+        display:flex;
+        justify-items:center;
+        bottom:580px;
+        font-size:300px;
+ }
+    @keyframes anim{
+        from{
+               right:0%;
+        }
+        to{
+                 right:100%;
+        }
+   } 
+
+.navbar2{
+      height:400px;
+      width:500px;
+       position:relative;
+       background-repeat:no-repeat;
+        left:100px;
+        bottom:1400px;
+        font-size:100px;
+         display:flex;  
+}
+ .navbar3{
+         height:160px;
+         width:400px;
+       background-image:url(images__3_-removebg-preview.png);
+         background-size:cover;
+        position:relative;
+        bottom:1450px;
+        right:-1000px;
+        animation-name:falling;
+        animation-duration:4s;
+        animation-timing-function:linear;
+        animation-iteration-count:infinite;
+      }
+       
+@keyframes falling{
+      0%{
+            right:-1000px;
+      }
+      10%{
+            right:-500px;
+      }
+      20%{
+            right:-400px;
+      }
+      30%{
+            right:-300px;
+      }
+      40%{
+            right:-200px;
+      }
+      50%{
+            right:-100px;
+      }
+      60%{
+            right:00px;
+      }
+      70%{
+            right:300px;
+      }
+      80%{
+            right:500px;
+      }
+      90%{
+            right:700px;
+      }
+      100%{
+            right:900px;
+      }
+     
+}
+.navbar4{
+        height:820px;
+        width:100%;
+        background-color:green;
+        position:relative;
+        bottom: 2240px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+}
+button{
+        font-size:100px;
+        border-radius:5%;
+}
+  .navbar5{
+       width:2000px;
+       position:relative;
+       display:flex;
+       bottom:2000px;
+    }    
+    .navbar5-0{
+       width:250px;
+       height:250px;
+       position:relative;
+      animation-name:lion-move0;
+      animation-duration:6s;
+      animation-timing-function:linear;
+       animation-iteration-count:infinite;
+}
+  @keyframes lion-move0{
+      0%{
+            left:100%;
+      }
+      100%{
+            left:-20%;
+      }
+ } 
+
+ /* .navbar5-1{
+      width:250px;
+      height:250px;
+      left:2000px;
+      position:relative;
+      animation-name:lion-move1;
+      animation-duration:12s;
+       animation-timing-function:linear;
+       animation-iteration-count:infinite;
+}
+@keyframes lion-move1{
+      0%{
+            left:100%;
+      }
+      100%{
+            left:-100%;
+      }
+ }  */
+ /* .navbar5-2{
+      width:250px;
+      height:250px;
+      left:2000px;
+      position:relative;
+      animation-name:lion-move2;
+      animation-duration:18s;
+       animation-timing-function:linear;
+       animation-iteration-count:infinite;
+}
+@keyframes lion-move2{
+      0%{
+            left:100%;
+      }
+      100%{
+            left:-100%;
+      }
+ }  */
+ /* .navbar5-3{
+      width:250px;
+      height:250px;
+      bottom:2700px;
+      position:relative;
+      animation-name:lion-move3;
+      animation-duration:3.5s;
+       animation-timing-function:linear;
+       animation-iteration-count:infinite;
+}
+@keyframes lion-move3{
+      0%{
+            left:100%;
+      }
+      100%{
+            left:-100%;
+      }
+ }  */
+
+ .navbar6{
+        height:100px;
+        width:0px;
+       position:relative;
+        left:10px;
+         bottom:2180px;
+        display:flex;
+ } 
+#skybtn{
+       font-size:45px;
+       color:red;
+       position:relative;
+       bottom:2000px;
+        left:300px;
+       border-radius:20%;
+}
+#downbtn{
+      font-size:45px;
+      color:red;
+      position:relative;
+      bottom:2000px;
+       left:300px;
+      border-radius:20%;
+}
+.score{
+       width:200px;
+      color:rgba(0, 0, 0, 0.918);
+      position:relative;
+      bottom:2550px;
+      background-color:rgb(171, 11, 234);
+      left:1100px;
+      font-size:30px;
+      opacity:1;
+      display:flex;
+      justify-content:center;
+      border-radius:5%;
+}
+#countbtn{
+      font-size:45px;
+      color:red;
+      position:relative;
+      bottom:2280px;
+       left:900px;
+      border-radius:20%;
+      text-align:center;
+}
+  .navbar7{
+       width:2000px;
+       height:250px;
+       position: relative;
+       bottom:2500px;
+  }
+  .helimove{
+      width:250px;
+      height:250px;
+      left:2000px;
+      bottom:200px;
+      position:relative;
+      animation-name:animofheli;
+      animation-duration:6s;
+       animation-timing-function:linear;
+       animation-iteration-count:infinite;
+}
+@keyframes animofheli{
+      0%{
+            left:100%;
+      }
+      100%{
+            left:-100%;
+      }
+ } 
+ .navbar8{
+        position:relative;
+        bottom:2700px;
+        width:2000px;
+ }
+ .car2{
+      width:250px;
+      height:250px;
+      position:relative;
+      animation-name:car2anim;
+      animation-duration:9s;
+       animation-timing-function:linear;
+       animation-iteration-count:infinite;
+ }
+ @keyframes car2anim{
+      0%{
+            left:100%;
+      }
+      100%{
+            left:-100%;
+      }
+ } 
